@@ -1,0 +1,12 @@
+services:
+  db:
+    image: mysql:oracle
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./.data/db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=demo
+      - MYSQL_USER=demo
+      - MYSQL_PASSWORD=SecurePa55w0rd
+      - MYSQL_ROOT_PASSWORD=SecureRootPa55w0rd

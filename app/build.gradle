@@ -1,0 +1,17 @@
+plugins {
+  id 'java'
+  id 'org.springframework.boot'
+}
+
+processResources {
+  filesMatching('application.yml') {
+    expand(project.properties)
+  }
+}
+
+dependencies {
+  implementation 'org.flywaydb:flyway-core'
+  implementation 'org.flywaydb:flyway-mysql'
+
+  testImplementation 'com.h2database:h2'
+}

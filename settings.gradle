@@ -1,0 +1,6 @@
+rootProject.name = 'testcontainers'
+include 'tc-mysql'
+include 'tcp-mysql'
+include 'tcp-mongo'
+include 'app'
+

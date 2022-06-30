@@ -2,6 +2,7 @@ package com.example.testcontainers.film.domain;
 
 import com.example.testcontainers.film.dto.FilmDto;
 import com.example.testcontainers.film.dto.FilmTypeDto;
+import java.time.LocalDate;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,6 +13,8 @@ class Film {
   @Id
   private String title;
   private String type;
+
+  private LocalDate releaseDate;
 
   protected Film() {}
 

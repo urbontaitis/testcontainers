@@ -12,8 +12,7 @@ url: https://www.urbontaitis.lt/testcontainers
     color: #fff;
     font-family: 'MonoLisa Regular', serif !important;    
     background-blend-mode: multiply;        
-    /* background: #00385b url("https://raw.githubusercontent.com/urbontaitis/renovatebot/main/images/background.png") no-repeat center center;  */
-    background: #00385b url("media/AE1A6464.jpg") no-repeat center center; 
+    background: #00385b url("https://raw.githubusercontent.com/urbontaitis/renovatebot/main/images/background.png") no-repeat center center;     
     background-color: rgba(0, 0, 0, 0.7);    
     background-size: cover;
 }
@@ -25,15 +24,7 @@ h1 {
 </style>
 
 <style scoped>
-section {        
-    background-blend-mode: multiply;        
-    background: #00385b url("media/AE1A6464.jpg") no-repeat center center; 
-    background-color: rgba(0, 0, 0, 0.5);    
-    background-size: cover;
-}
-
-h4 {
-    background: url("media/metasite-logo.png") no-repeat right top; 
+h4 {    
     width: 100%;
     padding-bottom: 250px
 }
@@ -59,7 +50,6 @@ footer{
 
 ###### 2022-06-30
 
-<!-- _footer: "www.metasite.net" -->
 
 ---
 

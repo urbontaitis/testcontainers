@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.7.1'
+	id 'org.springframework.boot' version '3.0.1'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
 
@@ -8,7 +8,7 @@ repositories {
 }
 
 ext {
-	set('spockVersion', "2.1-groovy-3.0")
+	set('spockVersion', "2.4-M1-groovy-3.0")
 }
 
 subprojects {
@@ -31,7 +31,7 @@ subprojects {
 
 	dependencyManagement {
 		imports {
-			mavenBom('org.springframework.boot:spring-boot-dependencies:2.7.1')
+			mavenBom('org.springframework.boot:spring-boot-dependencies:3.0.1')
 		}
 	}
 
